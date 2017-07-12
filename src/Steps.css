@@ -1,0 +1,24 @@
+
+span{
+  padding-top:0px;
+  padding-left:0px;
+}
+
+.description{
+  font-size:20px;
+  font-family:'Dosis', sans-serif;
+}
+
+.link-style{
+  font-size:20px;
+  color:#440014;
+}
+
+.job-header{
+  font-size:25px;
+  color:#440014;
+  font-family:'Dosis', sans-serif;
+  padding:0px;
+  margin:0px;
+}
+

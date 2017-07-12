@@ -1,0 +1,48 @@
+
+img{
+  float:left;
+  border-radius: 25px;
+  height: 250px;
+  padding-right:20px;
+}
+
+span{
+  color:#3B413C;
+  padding-top:50px;
+  text-align:center;
+  display:block;
+  font-size:23px;
+  padding-left:100px;
+  font-family:'Dosis', sans-serif;
+  margin:auto;
+}
+
+.personal-span{
+  width: 1000px;
+}
+
+span .text{
+  padding-left:30px;
+}
+
+p{
+  padding-top:25px;
+}
+
+.contact{
+  background:#440014;
+  font-size:20px;
+  color:white;
+  text-align:center;
+  padding:20px;
+  width:1330px;
+  font-family:'Dosis', sans-serif;
+}
+
+a{
+  cursor:pointer;
+}
+
+.my-links{
+  color:#94D1BE;
+}
