@@ -1,10 +1,18 @@
 
 .HeaderClass{
-  color:#3B413C;
-  text-shadow: 6px 6px 10px #9DB5B2;
+  color:#daf0ee;
   text-align:center;
   font-family:'Nova Mono', monospace;
   font-size:80px;
-  padding-top:100px;
+  padding-top:40 px;
+  letter-spacing: .1em;
+  text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+  font-variant:initial;
+}
+
+.HeaderBackground{
+  background-color:rgba(255,255,255,0.5);
 }
 

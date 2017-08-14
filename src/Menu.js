@@ -51,12 +51,6 @@ export default class Menu extends Component{
           </div>
 
           <div className="button">
-            <i className="fa fa-code-fork" onClick={ () => this.buttonPressed("projects") }> 
-              <span className="text-label">Projects</span>
-            </i>
-          </div>
-
-          <div className="button">
           <i className="fa fa-star-half-full" onClick={ () => this.buttonPressed("education") }> 
             <span className="text-label">Skills and Interests</span>
             </i>
@@ -70,7 +64,7 @@ export default class Menu extends Component{
 
           <a href="./resume.pdf" download>
           <div className="button">
-            <i id="center" className="fa fa-pencil-square-o" >
+            <i id="right" className="fa fa-pencil-square-o" >
               <span className="text-label">Resume PDF</span>
             </i>
           </div>

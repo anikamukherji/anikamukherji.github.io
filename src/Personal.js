@@ -8,16 +8,12 @@ export default class Personal extends Component{
   render(){
     return( 
       <div>
-        <h4 className="headings">About Me</h4> 
-        <span className="personal-span"> <img src={require( "../images/personal.jpg" )} alt="Personal" height={250}/>
-            <p>
-Hi - welcome to my site! I am a 19 year old undergraduate sophomore from Northville, Michigan. I am a current computer science and neuroscience student at Duke University. As a neuroscience student, I have a natural tendency towards big data and artificial intelligence (particularly machine learning). However, recently I have developed an affinity for the front-end, and I have started several related projects. I am always looking to learn more! Feel free to contact me for inquiries of any kind.  
-          </p>
+        <h4 className="headings personal-hover">"Any fool can know. The point is to understand."</h4> 
+        <span className="personal-span"> <img src={require( "../images/sf_pic.jpg" )} alt="Personal" height={250}/>
+            <p className="personal-text">
+Hi - welcome to my site! I am a 20 year old undergraduate sophomore from Northville, Michigan. I am a current "Minds and Machines" B.S. student at Duke University: a CS + Neuroscience major that I created. I have done everything from computational modling of the brain to R package development to iOS software, and I am always looking to learn new things. Check out my GitHub to see some of my projects and please contact me with any inquiries!
+            </p>
         </span>
-          <div className="contact">
-        248.974.1990 | anika.mukherji@duke.edu | <a className="my-links" href="https://github.com/anikamukherji">My GitHub </a> 
-      | <a className="my-links" href="https://www.linkedin.com/in/anika-mukherji-20a498126/">My LinkedIn</a>
-          </div>
       </div>
     )
   }

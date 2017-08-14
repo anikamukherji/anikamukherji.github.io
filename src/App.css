@@ -1,31 +1,43 @@
 
-
-body{
-  /*background-image: url("https://static.pexels.com/photos/132204/pexels-photo-132204.jpeg");*/
-  background-color:#DAF0EE;
-  /*background: linear-gradient(to bottom right, #90FCF9, #63B4D1, #7699D4, #282484);*/
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow:auto;
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-image:url("ocean.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-  /*background-image: url("https://static.pexels.com/photos/132204/pexels-photo-132204.jpeg");*/
-  /*background-image: url("https://static.pexels.com/photos/131683/pexels-photo-131683.jpeg");*/
+
+.parallaxBlock {
+    background-image:url("ocean.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+  height:400px;
+}
 
 .quote{
   text-align:center;
   color:#440014;
   font-family: 'Lobster', cursive;
   font-size:30px;
-  padding-top:30px;
+  font-color:white;
+  vertical-align:center;
+  padding-top:50px;
+  padding-bottom:150px;
+  text-shadow: 0px 0px 10px white;
 }
 
 .author{
   text-align:center;
   font-family:'Nova Mono', monospace;
-  text-shadow: 6px 6px 10px white;
-  color:#3B413C;
+  color:#440014;
   font-size:20px;
-  padding-top:40px;
+  text-shadow: 0px 0px 10px white;
 }
 
 .menu-bars{
@@ -37,11 +49,9 @@ body{
 
 p{
   padding-top:10px;
-  text-shadow: 0px 0px 10px white;
-  color:#3B413C;
+  color:#440014;
 }
 
 .section-padding{
   padding:100px;
-
 }

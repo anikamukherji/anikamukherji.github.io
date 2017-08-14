@@ -51,14 +51,14 @@ export default class Education extends Component{
   render(){
     return( 
       <div className='center-items'>
-        <h4 className="headings">Education</h4> 
-        <h3>Northville High School</h3>
-            <ul>2011 to 2015</ul>
-            <ul>Graduated Summa Cum Laude</ul>
-            <ul>GPA: 4.0/4.0</ul>
+        <h4 className="headings">"Education is what you learn after you leave school."</h4> 
         <h3>Duke University</h3>
             <ul>2015 to Present</ul>
             <ul>Bachelors of Science in Computer Science/Neuroscience</ul>
+            <ul>GPA: 4.0/4.0</ul>
+        <h3>Northville High School</h3>
+            <ul>2011 to 2015</ul>
+            <ul>Graduated Summa Cum Laude</ul>
             <ul>GPA: 4.0/4.0</ul>
         <button className='list-button' onClick={this.openModal}>
           <h3>Coursework</h3>

@@ -2,10 +2,12 @@
 
 h3{
   text-align:center;
-  font-family: "Lobster", cursive;
   font-size:30px;
+  font-family:'Dosis', sans-serif;
   padding:0px;
+  font-variant:small-caps;
   margin-bottom:0px;
+  color:rgb(18,0,50);
 }
 
 ul{
@@ -13,11 +15,13 @@ ul{
   padding-left:0;
   font-family:'Dosis', sans-serif;
   font-size:20px;
+  background-color:transparent;
+  color:rgb(18,0,50);
 }
 
 .list-button{
   opacity:100%;
-  color:#440014;
+  color:rgb(18,0,50);
   background-color: Transparent;
   border: none;
   cursor:pointer;
@@ -27,6 +31,7 @@ ul{
 
 .center-items{
   text-align:center;
+  padding-bottom:50px;
 }
 
 .modal-close{

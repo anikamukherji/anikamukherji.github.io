@@ -40,8 +40,6 @@ class VerticalNonLinear extends React.Component {
     }
   }
 
-
-
   render(){
 
     return (

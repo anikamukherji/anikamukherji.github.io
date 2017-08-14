@@ -12,12 +12,13 @@
 
 
 .fa{
-  color:#3B413C;
+  color:#440014;
   font-size: 1.75em;
   transition: font-shadow 0.5s ease-in-out;
   padding-left:60px;
   position:relative;
   cursor:pointer;
+  text-shadow: 4 0px 15px #9DB5B2;
 }
 
 .fa::after {
@@ -37,16 +38,13 @@
 .fa:hover{
   transform: scale(1.15, 1.15);
   text-shadow: 0 5px 10px #9DB5B2;
-  color:#440014;
+  color:#daf0ee;
 }
 
 .fa:hover .text-label{
   visibility:visible;
-  color:#440014;
+  color:#daf0ee;
 }
-
-
-
 
 p{
   text-color:black;
@@ -54,8 +52,6 @@ p{
   box-shadow: none;
   padding-bottom:50px;
 }
-
-
 
 .text-label{
   display:block;
@@ -66,6 +62,7 @@ p{
   padding-left:0px;
   padding-right:20px;
   width:100px;
+  color:#daf0ee;
   justify-content: center;
   -webkit-transform: rotate(8deg);
   /*font-family: Sans-serif;*/

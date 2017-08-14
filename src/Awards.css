@@ -1,12 +1,10 @@
 
 a{
   cursor:pointer;
-  color:#84485A;
   text-decoration: none;
 }
 
 .awards{
-  border-radius: 25px;
   font-size:30px;
   margin:auto;
   display:flex;
@@ -16,6 +14,7 @@ ul{
   text-align:center;
   margin:auto;
   width:100%;
+  background-color:rgba(255,255,255,0.5);
 }
 
 ul, li{
@@ -27,18 +26,12 @@ li a{
   color:#440014
 }
 
-/*li:nth-child(even) { */
-  /*background:white;*/
-/*}*/
-
-
 .award {
   font-family:'Dosis', sans-serif;
   font-weight: 500;
   font-size:25px;
   color:#3B413C;
   margin:auto;
-  box-shadow: 0 0 4px 2px #DAF0EE inset;
   padding-top:10px;
   padding-bottom:10px;
 }
@@ -59,7 +52,5 @@ li a{
 
 .award:hover {
   font-size: 30px;
-  /*box-shadow: 0 7px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
-  text-shadow: 0 10px 10px #9DB5B2;
 }
 

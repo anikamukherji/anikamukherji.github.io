@@ -4,7 +4,6 @@ import Menu from './Menu'
 import Education from './Education'
 import Personal from './Personal'
 import Work from './Work'
-import Projects from './Projects'
 import Awards from './Awards'
 import './App.css'
 import injectTapEventPlugin from '../react-tap-event-plugin/src/injectTapEventPlugin';
@@ -34,8 +33,6 @@ class App extends Component {
       scrollToComponent(this.refs.work) 
     } else if (tag === "awards") {
       scrollToComponent(this.refs.awards) 
-    } else if (tag === "projects") {
-      scrollToComponent(this.refs.projects) 
     }
   }
 
@@ -43,22 +40,44 @@ class App extends Component {
 
     return (
       <MuiThemeProvider>
-        <div className="bground">
         <div>
+
+        <div className="parallax">
           <div className="menu-bars">
             <Menu menuButtonParentCallback={ this.menuButtonPressed }/>
           </div>
           <Header title="anika mukherji"/>
-          <p className="quote"> "Any fool can know. The point is to understand."</p>
-          <p className="author"> - Albert Einstein</p>
+          <p className="quote"> "The cure for anything is salt water, tears, or the sea. "</p>
+          <p className="author"> - Isak Dinesen</p>
         </div>
         <Personal ref="personal" />
-        <Education ref="education"/>
-        <div className="section-padding">
-          <Work ref="work"/>
+
+        <div className="parallaxBlock"> 
+          <div className="container"/>
         </div>
+
+        <Education ref="education"/>
+
+        <div className="parallaxBlock"> 
+          <div className="container"/>
+        </div>
+
+        <Work ref="work"/>
+
+        <div className="parallaxBlock"> 
+          <div className="container"/>
+        </div>
+
         <Awards ref="awards"/>
-        <Projects ref="projects"/>
+
+        <div className="parallaxBlock"> 
+          <div className="container"/>
+        </div>
+
+        <div className="contact">
+      248.974.1990 | anika.mukherji@duke.edu | <a className="my-links" href="https://github.com/anikamukherji">My GitHub </a> 
+    | <a className="my-links" href="https://www.linkedin.com/in/anika-mukherji-20a498126/">My LinkedIn</a>
+        </div>
         </div>
       </MuiThemeProvider>
     )

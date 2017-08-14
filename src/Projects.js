@@ -10,7 +10,7 @@ export default class Projects extends Component{
 
   render(){
     return( 
-      <div>
+      <div className="bground">
         <h4 className="headings">Projects</h4> 
           <GridListExampleSingleLine/>
       </div>

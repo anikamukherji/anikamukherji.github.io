@@ -27,11 +27,13 @@ const tilesData = [
     img: brain,
     title: 'Integrate and Fire Neurons',
     cursor:"pointer",
+    key:"integrate-and-fire-neurons",
   },
   {
     img: Rduino,
     title: 'RFirmata',
     cursor:"pointer",
+    key:"hoff-lab-rfirmata",
   },
 ]
 
