@@ -4,8 +4,16 @@ import {GridList, GridTile} from '../node_modules/material-ui/GridList';
 import "./Grid.css"
 
 
-var brain = require("../images/brain.jpg")
-var Rduino = require("../images/arduino.jpg")
+var petals = require("../images/petals.jpg")
+var grandCanyon = require("../images/grandCanyon.jpg")
+var stormBridge = require("../images/stormBridge.jpg")
+var grandpa = require("../images/grandpa.jpg")
+var jamaica = require("../images/jamaica.jpg")
+var blueberries = require("../images/blueberries.jpg")
+var beforeIDie = require("../images/beforeIDie.jpg")
+var nightCrawler = require("../images/nightCrawler.jpg")
+var plane = require("../images/plane.jpg")
+var ww2 = require("../images/ww2.jpg")
 
 const styles = {
   root: {
@@ -24,16 +32,34 @@ const styles = {
 
 const tilesData = [
   {
-    img: brain,
-    title: 'Integrate and Fire Neurons',
-    cursor:"pointer",
-    key:"integrate-and-fire-neurons",
+    img: petals,
   },
   {
-    img: Rduino,
-    title: 'RFirmata',
-    cursor:"pointer",
-    key:"hoff-lab-rfirmata",
+    img: grandCanyon,
+  },
+  {
+    img: stormBridge,
+  },
+  {
+    img: plane,
+  },
+  {
+    img: grandpa,
+  },
+  {
+    img: beforeIDie,
+  },
+  {
+    img: blueberries,
+  },
+  {
+    img: jamaica,
+  },
+  {
+    img: nightCrawler,
+  },
+  {
+    img: ww2,
   },
 ]
 
@@ -47,9 +73,7 @@ const GridListExampleSingleLine = () => (
     >
     {tilesData.map((tile) => (
         <GridTile
-          title={<a className="project-link" href="https://github.com/anikamukherji/Integrate-and-Fire-Neurons">{tile.title}</a>}
           titleStyle={styles.titleStyle}
-          titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
         >
           <img src={tile.img} alt="Personal" height={250}/>
         </GridTile>

@@ -22,3 +22,7 @@ span{
   margin:0px;
 }
 
+.job-header:hover {
+  color:#0c1821;
+}
+

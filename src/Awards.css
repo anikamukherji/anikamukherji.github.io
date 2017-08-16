@@ -8,6 +8,7 @@ a{
   font-size:30px;
   margin:auto;
   display:flex;
+  padding-bottom:50px;
 }
 
 ul{
@@ -46,11 +47,11 @@ li a{
   display: block;
 }
 
-.award::after{
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
 .award:hover {
   font-size: 30px;
+}
+
+.award-links:hover {
+  color:#0c1821;
 }
 

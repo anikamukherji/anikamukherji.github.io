@@ -8,7 +8,7 @@ export default class Awards extends Component{
   render(){
     return( 
       <div>
-        <h4 className="headings">"I don't deserve this award, but I have arthritis  and I don't deserve that either."</h4> 
+        <h4 className="headings awards-hover">"It's nice to win awards, but we need to keep moving forward."</h4> 
         <div className="awards">
           <ul>
             <li className="award">

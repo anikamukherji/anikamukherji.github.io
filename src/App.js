@@ -5,6 +5,7 @@ import Education from './Education'
 import Personal from './Personal'
 import Work from './Work'
 import Awards from './Awards'
+import Photos from './Photos'
 import './App.css'
 import injectTapEventPlugin from '../react-tap-event-plugin/src/injectTapEventPlugin';
 import MuiThemeProvider from '../node_modules/material-ui/styles/MuiThemeProvider';
@@ -33,6 +34,8 @@ class App extends Component {
       scrollToComponent(this.refs.work) 
     } else if (tag === "awards") {
       scrollToComponent(this.refs.awards) 
+    } else if (tag === "photos") {
+      scrollToComponent(this.refs.photos) 
     }
   }
 
@@ -74,8 +77,15 @@ class App extends Component {
           <div className="container"/>
         </div>
 
+        <Photos ref="photos"/>
+
+        <div className="parallaxBlock"> 
+          <div className="container"/>
+        </div>
+
         <div className="contact">
       248.974.1990 | anika.mukherji@duke.edu | <a className="my-links" href="https://github.com/anikamukherji">My GitHub </a> 
+      | <a className="my-links" href="http://vsco.co/anika1997/images/1">My VSCO Photo Blog </a> 
     | <a className="my-links" href="https://www.linkedin.com/in/anika-mukherji-20a498126/">My LinkedIn</a>
         </div>
         </div>

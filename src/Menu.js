@@ -62,6 +62,12 @@ export default class Menu extends Component{
             </i>
           </div>
 
+          <div className="button">
+            <i className="fa fa-camera" onClick={ () => this.buttonPressed("photos") }> 
+              <span className="text-label">Photos</span>
+            </i>
+          </div>
+
           <a href="./resume.pdf" download>
           <div className="button">
             <i id="right" className="fa fa-pencil-square-o" >

@@ -1,7 +1,4 @@
 
-.headings:hover h4.personal-hover:after {
-  content:"- Albert Einstein";
-}
 
 img{
   float:left;
@@ -35,14 +32,6 @@ p{
 
 .personal-text {
   color:#440014;
-}
-
-.contact{
-  font-size:20px;
-  text-align:center;
-  padding:20px;
-  width:1330px;
-  font-family:'Dosis', sans-serif;
 }
 
 a{

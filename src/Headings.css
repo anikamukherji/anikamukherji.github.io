@@ -5,5 +5,30 @@
   font-family: 'Lobster', cursive;
   font-size:30px;
   color:#440014;
-  text-shadow: 0px 0px 10px white;
+  transition:all 0.3s ease;
+}
+
+.headings:hover.personal-hover:after {
+  content:"- Albert Einstein";
+  color:#0c1821;
+}
+
+.headings:hover.education-hover:after {
+  content:"- Robert Kiyosaki";
+  color:#0c1821;
+}
+
+.headings:hover.work-hover:after {
+  content:"- Confucius";
+  color:#0c1821;
+}
+
+.headings:hover.awards-hover:after {
+  content:"- Jaki Clark";
+  color:#0c1821;
+}
+
+.headings:hover.photos-hover:after {
+  content:"- Burk Uzzle";
+  color:#0c1821;
 }
