@@ -7,8 +7,8 @@ import Work from './Work'
 import Awards from './Awards'
 import Photos from './Photos'
 import './App.css'
-import injectTapEventPlugin from '../react-tap-event-plugin/src/injectTapEventPlugin';
-import MuiThemeProvider from '../node_modules/material-ui/styles/MuiThemeProvider';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import scrollToComponent from 'react-scroll-to-component';
 
 injectTapEventPlugin()

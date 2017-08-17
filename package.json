@@ -4,10 +4,13 @@
   "homepage": "https://anikamukherji.github.io",
   "private": true,
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "material-ui": "^0.16.4",
+    "react-tap-event-plugin": "^2.0.1",
     "react-modal": "^1.7.3",
     "react-motion-menu": "^0.4.4",
+    "react-scroll-to-component": "^1.0.1",
     "react-sidebar": "^2.3.0"
   },
   "devDependencies": {
