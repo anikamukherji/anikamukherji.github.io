@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MotionMenu from './react-motion-menu-master/src';
+import MotionMenu from 'react-motion-menu';
 import './Menu.css'
 
 
