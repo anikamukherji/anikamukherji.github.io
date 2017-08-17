@@ -9,10 +9,16 @@ import Photos from './Photos'
 import './App.css'
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import scrollToComponent from 'react-scroll-to-component';
 
 injectTapEventPlugin()
 
+const muiTheme = getMuiTheme({
+  palette: {
+    primary1Color: '#440014',
+  },
+});
 
 class App extends Component {
 
@@ -42,7 +48,7 @@ class App extends Component {
   render() {
 
     return (
-      <MuiThemeProvider>
+      <MuiThemeProvider muiTheme={muiTheme}>
         <div>
 
         <div className="parallax">
