@@ -68,7 +68,7 @@ export default class Menu extends Component{
             </i>
           </div>
 
-          <a href="./resume.pdf" download>
+          <a href="./AnikaMukherji_Resume.pdf" download>
           <div className="button">
             <i id="right" className="fa fa-pencil-square-o" >
               <span className="text-label">Resume PDF</span>

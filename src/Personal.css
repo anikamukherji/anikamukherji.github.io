@@ -1,10 +1,10 @@
 
 
 img{
-  float:left;
   border-radius: 25px;
+  box-shadow: 8px 8px 10px #aaa;
   height: 250px;
-  padding-right:20px;
+  margin: auto;
 }
 
 span{
@@ -18,12 +18,13 @@ span{
 }
 
 .personal-span{
-  width: 1000px;
   text-color:#440014;
-}
-
-span .text{
-  padding-left:30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;   
+  flex-wrap: wrap;
 }
 
 p{

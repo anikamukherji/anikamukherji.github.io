@@ -51,11 +51,11 @@ class VerticalNonLinear extends React.Component {
         >
           <Step>
             <StepButton onTouchTap={(event) => this.handler(event, 0)}> 
-              <p className="job-header">Incoming intern at Vida Health </p>
+              <p className="job-header">Software Engineer at Vida Health </p>
             </StepButton>
             <StepContent>
               <p className="description">
-            Working as a software intern this summer at <a href="https://www.vida.com" className="link-style">Vida Health</a>. More information coming by the end of summer 2017!
+            Worked as a software intern during the summer of 2017 at <a href="https://www.vida.com" className="link-style">Vida Health</a> on the iOS development team. I am continuing to work as a part-time software engineer into the fall of 2017 as we finish up our project: a 2.0 version of our app.
               </p>
             </StepContent>
           </Step>

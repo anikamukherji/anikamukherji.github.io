@@ -16,6 +16,10 @@ export default class Awards extends Component{
               </a>
             </li>
             <li className="award">
+              <a  className="award-links" href="http://rewritingthecode.org/fellowship-program/">Rewriting the Code Fellow
+              </a>
+            </li>
+            <li className="award">
               <a  className="award-links" href="http://www.nyas.org/WhatWeDo/ScienceEd/NeXXtScholars.aspx">NYAS Next Scholar
               </a>
             </li>

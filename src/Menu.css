@@ -18,7 +18,7 @@
   padding-left:60px;
   position:relative;
   cursor:pointer;
-  text-shadow: 4 0px 15px #9DB5B2;
+  text-shadow: 0px 0px 10px white;
 }
 
 .fa::after {
@@ -29,7 +29,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  text-shadow: 4 0px 15px #9DB5B2;
   opacity: 0;
   transition: all 1.9s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -37,7 +36,7 @@
 
 .fa:hover{
   transform: scale(1.15, 1.15);
-  text-shadow: 0px 0px 10px white;
+  text-shadow: 3px 3px 20px white;
 }
 
 .fa:hover .text-label{
