@@ -12,6 +12,10 @@ export default class Awards extends Component{
         <div className="awards">
           <ul>
             <li className="award">
+              <a className="award-links" href="https://www.pbk.org/web">Phi Beta Kappa
+              </a>
+            </li>
+            <li className="award">
               <a className="award-links" href="http://dtech.duke.edu/">DTech Scholar
               </a>
             </li>
@@ -28,7 +32,7 @@ export default class Awards extends Component{
               </a>
             </li>
             <li className="award">
-              <a className="award-links" href="https://trinity.duke.edu/undergraduate/academic-policies/deans-lists">Deans List with Distinction: Fall 2015, Spring 2016, Fall 2016, Spring 2017 
+              <a className="award-links" href="https://trinity.duke.edu/undergraduate/academic-policies/deans-lists">Deans List with Distinction: Fall 2015, Spring 2016, Fall 2016, Spring 2017, Fall 2017 
             </a>
             </li>
             <li className="award">

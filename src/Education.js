@@ -93,12 +93,14 @@ export default class Education extends Component{
             <li> CS250: Computer Architecture</li>
             <li> CS270: Introduction to Artificial Intelligence</li>
             <li> CS590: Building Ethics into Artifical Intelligence</li>
+            <li> BME590: Medical Software Design</li>
             <li> Web Development Fundamentals (Coursera) </li>
             <li> Math122L: Calculus II and Applications </li>
             <li> Math218: Matrices and Vector Spaces (Linear Algebra)</li>
             <li> Neuro101: Biological Basis of Behavior</li>
             <li> Neuro201: Fundamentals of Neuroscience</li>
             <li> Neuro212: Introduction to Cognitive Neuroscience</li>
+            <li> Neuro267: Neuroethics</li>
             <li> Neuro355S: Visual Perception and the Brain</li>
             <li> Neuro493: Modeling Cortical Inhibition</li>
           </ul>

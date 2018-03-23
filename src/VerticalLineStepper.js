@@ -49,9 +49,43 @@ class VerticalNonLinear extends React.Component {
           linear={false}
           orientation="vertical"
         >
+
           <Step>
-            <StepButton onTouchTap={(event) => this.handler(event, 0)}> 
-              <p className="job-header">Software Engineer at Vida Health </p>
+            <StepButton onTouchTap={(event) => this.handler(event, 7)}> 
+              <p className="job-header">Pinterest Software Engineering Intern - Summer 2018</p>
+            </StepButton>
+            <StepContent>
+              <p className="description">
+        Incoming intern at Pinterest for summer of 2018.
+              </p>
+            </StepContent>
+          </Step>
+
+          <Step>
+            <StepButton onTouchTap={(event) => this.handler(event, 7)}> 
+              <p className="job-header">Bass Connections Moral AI Researcher - Current </p>
+            </StepButton>
+            <StepContent>
+              <p className="description">
+        A current member of the Moral AI research team (funded by the Duke Bass Connections initiative) conducting research on the various ethical questions associated with artificial intelligence. During Fall 2017, I built a <a href="moralai.cs.duke.edu">research team website</a>. Currently, I am designing an independent research project that investigates the use of AI technology in the health field.
+              </p>
+            </StepContent>
+          </Step>
+
+          <Step>
+            <StepButton onTouchTap={(event) => this.handler(event, 5)}> 
+              <p className="job-header">Linear Algebra TA - Current</p>
+            </StepButton>
+            <StepContent>
+              <p className="description">
+          Currently working as a grader for a linear algebra and applications course.
+              </p>
+            </StepContent>
+          </Step>
+
+          <Step>
+            <StepButton onTouchTap={(event) => this.handler(event, 4)}> 
+              <p className="job-header">Software Engineer at Vida Health - Summer/Fall 2017</p>
             </StepButton>
             <StepContent>
               <p className="description">
@@ -59,9 +93,10 @@ class VerticalNonLinear extends React.Component {
               </p>
             </StepContent>
           </Step>
+
           <Step>
-            <StepButton onTouchTap={(event) => this.handler(event, 1)}> 
-              <p className="job-header">Research Assistant in Hoff Statistics Lab - Current</p>
+            <StepButton onTouchTap={(event) => this.handler(event, 3)}> 
+              <p className="job-header">Research Assistant in Hoff Statistics Lab - Spring 2017</p>
             </StepButton>
             <StepContent>
               <p className="description">
@@ -69,9 +104,10 @@ class VerticalNonLinear extends React.Component {
               </p>
             </StepContent>
           </Step>
+
           <Step>
             <StepButton onTouchTap={(event) => this.handler(event, 2)}> 
-              <p className="job-header">Researcher in Glickfeld Lab - Current</p>
+              <p className="job-header">Researcher in Glickfeld Lab - Fall 2016/Spring 2017</p>
             </StepButton>
             <StepContent>
               <p className="description">
@@ -79,8 +115,9 @@ class VerticalNonLinear extends React.Component {
               </p>
             </StepContent>
           </Step>
+
           <Step>
-            <StepButton onTouchTap={(event) => this.handler(event, 3)}> 
+            <StepButton onTouchTap={(event) => this.handler(event, 1)}> 
               <p className="job-header">Calculus II and Applications TA - Fall 2016</p>
             </StepButton>
             <StepContent>
@@ -89,8 +126,9 @@ class VerticalNonLinear extends React.Component {
               </p>
             </StepContent>
           </Step>
+
           <Step>
-            <StepButton onTouchTap={(event) => this.handler(event, 4)}> 
+            <StepButton onTouchTap={(event) => this.handler(event, 0)}> 
               <p className="job-header">Student Tutor - Fall 2010 - Spring 2015</p>
             </StepButton>
             <StepContent>
@@ -99,6 +137,7 @@ class VerticalNonLinear extends React.Component {
               </p>
             </StepContent>
           </Step>
+
         </Stepper>
       </div>
     );
